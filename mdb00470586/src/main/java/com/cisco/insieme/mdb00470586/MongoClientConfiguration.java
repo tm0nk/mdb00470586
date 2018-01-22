@@ -33,7 +33,7 @@ public class MongoClientConfiguration {
 
   private static final int MAX_CONNECTION_TIMEOUT = 10 * 1000;
 
-  private static final int MAX_CONNECTION_IDLE_TIMEOUT = 30 * 1000;
+  private static final int MAX_CONNECTION_IDLE_TIMEOUT = 900 * 1000;
 
   private static final int MAX_SOCKET_TIMEOUT = 60 * 1000;
 
